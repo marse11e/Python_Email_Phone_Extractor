@@ -17,7 +17,7 @@ class ExtractInfo:
 # создаем экземпляр класса
 extractor = ExtractInfo()
 
-text = "Меня зовут Иван, мой адрес электронной почты ivan@example.com, и мой номер телефона +7 (999) 999-9999"
+text = "Меня зовут Марсель, мой адрес электронной почты marselle@example.com, и мой номер телефона +7 (999) 999-9999"
 data = extractor.extract_info(text)
 print(data)
 
